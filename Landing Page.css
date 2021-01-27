@@ -1,0 +1,138 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  /* border: 0;   */
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+* {
+  box-sizing: border-box; /*this rule says, if I give an element a width I want it to respect that width - if I add padding or a border, apply it within the width given not in addition to it*/
+
+  max-width: 100%; /*this says you can never be bigger than your parent*/
+  background: #3a3e43;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  width: 30%;
+  height: auto;
+  margin-top: 5%;
+}
+
+nav {
+  margin-top: 2rem;
+}
+
+nav a {
+  --c: #c1aa5d;
+  color: var(--c);
+  font-size: 16px;
+  border: 0.3em solid var(--c);
+  border-radius: 0.5em;
+  width: 12em;
+  height: 3em;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: sans-serif;
+  letter-spacing: 0.1em;
+  text-align: center;
+  line-height: 3em;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  transition: 0.5s;
+  margin-top: ;
+  padding: 1rem;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background: #c1aa5d;
+  color: #deded2;
+}
